@@ -1,66 +1,140 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    background-color: #080F21;
-    font-family: Roboto, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #080f21;
+  font-family: Roboto, sans-serif;
 }
 
-header{
-    color: #ffffff;
-    display: flex;
-    margin-left:10px ;
-    width: 100%;
-    height: 3rem;
+header {
+  color: #ffffff;
+  display: flex;
+  margin-left: 10px;
+  width: 100%;
+  height: 3rem;
 }
 
-header section{
+header section {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  color: #ffffff;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+header nav div {
+  margin-right: 1rem;
+}
+
+main {
+  margin: 1rem;
+  display: flex;
+}
+
+section#init {
+  margin-top: 3.5rem;
+  margin-left: 6rem;
+  margin-right: 3rem;
+}
+
+section h2 {
+  color: #aaaaaa;
+}
+
+section h3 {
+  color: #ffffff;
+}
+
+section p {
+  color: #ffffff;
+  padding-top: 1rem;
+}
+
+section#project h3 {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+section#project p {
+  line-height: 26px;
+  color: #ffffff;
+  padding-right: 5rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+section#project h2 {
+  text-align: center;
+}
+
+section#cards {
+  display: flex;
+  align-items: center;
+  margin: 4rem 10rem;
+}
+
+div#card{
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-header img{
-    color: #ffffff;
-    margin-left: .5rem;
-    margin-right: .5rem;
-}
-
-header nav{
+div#card_dois{
     display: flex;
-    justify-content: flex-end;
-    width: 80%;
-    justify-content: flex-end;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
 }
 
-header nav div{
-    margin-right: 1rem;
+div#card img {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-main{
-    margin: 1rem;
-    display: flex;
+div#card_dois img {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-section#init{
-    margin-top: 3.5rem;
-    margin-left: 6rem;
-    margin-right: 3rem;
+section#services h2 {
+  text-align: center;
 }
 
-section h2{
-    color: #AAAAAA;
+section#pages {
+  display: flex;
+  align-items: center;
+  margin: 4rem 10rem;
 }
 
-section h3{
-    color: #ffffff;
+section#pages div img {
+  width: 20%;
+  margin-bottom: 1rem;
 }
 
+section#pages img {
+  width: 20%;
+}
 
-section p{
+footer{
+    height: 20%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
-    color: #ffffff;
-    padding-right: 5rem;
-    padding-top: 1rem;
 }
